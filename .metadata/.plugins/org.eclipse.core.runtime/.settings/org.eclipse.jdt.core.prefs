@@ -406,3 +406,4 @@ org.eclipse.jdt.core.formatter.wrap_before_shift_operator=true
 org.eclipse.jdt.core.formatter.wrap_before_string_concatenation=true
 org.eclipse.jdt.core.formatter.wrap_before_switch_case_arrow_operator=false
 org.eclipse.jdt.core.formatter.wrap_outer_expressions_when_nested=true
+org.eclipse.jdt.core.userLibrary.openfx_lib=<?xml version\="1.0" encoding\="UTF-8"?>\n<userlibrary systemlibrary\="false" version\="2">\n\t<archive path\="C\:/javafx-sdk-21.0.1/lib/javafx.base.jar"/>\n\t<archive path\="C\:/javafx-sdk-21.0.1/lib/javafx.controls.jar"/>\n\t<archive path\="C\:/javafx-sdk-21.0.1/lib/javafx.fxml.jar"/>\n\t<archive path\="C\:/javafx-sdk-21.0.1/lib/javafx.graphics.jar"/>\n\t<archive path\="C\:/javafx-sdk-21.0.1/lib/javafx.media.jar"/>\n\t<archive path\="C\:/javafx-sdk-21.0.1/lib/javafx.swing.jar"/>\n\t<archive path\="C\:/javafx-sdk-21.0.1/lib/javafx.web.jar"/>\n\t<archive path\="C\:/javafx-sdk-21.0.1/lib/javafx-swt.jar"/>\n</userlibrary>\n

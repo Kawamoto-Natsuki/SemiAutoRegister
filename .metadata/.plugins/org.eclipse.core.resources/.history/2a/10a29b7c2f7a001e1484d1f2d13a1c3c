@@ -1,5 +1,0 @@
-module hello_world {
-	requires javafx.controls;
-	
-	opens application to javafx.graphics, javafx.fxml;
-}
