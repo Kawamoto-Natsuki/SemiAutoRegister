@@ -7175,3 +7175,20 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.egit.core 4 0 2023-11-14 20:28:05.529
+!MESSAGE プッシュ中に例外が発生しました URI https://github.com/Kawamoto-Natsuki/SemiAutoRegister.git: https://github.com/Kawamoto-Natsuki/SemiAutoRegister.git: 未認証
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Kawamoto-Natsuki/SemiAutoRegister.git: 未認証
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:696)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:638)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:542)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1540)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-11-14 20:28:05.538
+!MESSAGE どのリポジトリーにも接続できません: https://github.com/Kawamoto-Natsuki/SemiAutoRegister.git (https://github.com/Kawamoto-Natsuki/SemiAutoRegister.git: 未認証)
