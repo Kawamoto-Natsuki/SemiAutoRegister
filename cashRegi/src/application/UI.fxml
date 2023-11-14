@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label alignment="CENTER" prefHeight="41.0" prefWidth="335.0" style="-fx-background-color: #555555;" text="Semi Auto Register" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Pane layoutX="-3.0" layoutY="29.0" prefHeight="562.0" prefWidth="337.0" style="-fx-background-color: #B2AAA3;" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="41.0">
+         <children>
+            <Label alignment="BOTTOM_CENTER" layoutX="27.0" layoutY="1.0" prefHeight="26.0" prefWidth="266.0" text="以下に枚数を入力してください">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Label>
+            <GridPane alignment="TOP_RIGHT" layoutX="28.0" layoutY="46.0" prefHeight="171.0" prefWidth="185.0">
+              <columnConstraints>
+                <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="109.13333587646484" minWidth="10.0" prefWidth="80.2666732788086" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="114.06666946411133" minWidth="10.0" prefWidth="42.66664428710938" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="114.06666946411133" minWidth="10.0" prefWidth="19.733355712890614" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="60.79999999999999" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="31.99997558593749" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="31.99997558593749" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="31.99997558593749" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="31.99997558593749" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="31.99997558593749" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="31.99997558593749" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="18.0" prefWidth="61.0" text="¥500：" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="18.0" prefWidth="61.0" text="¥50：" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="18.0" prefWidth="59.0" text="¥100：" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="27.0" prefWidth="69.0" text="¥5000：" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="27.0" prefWidth="70.0" text="¥1000：" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="18.0" prefWidth="61.0" text="¥1：" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="18.0" prefWidth="61.0" text="¥10：" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="27.0" prefWidth="79.0" text="¥10000：">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </TextFlow>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+            <Label contentDisplay="TOP" layoutX="219.0" layoutY="159.0" prefHeight="10.0" prefWidth="58.0" text="集計：">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextFlow layoutX="227.0" layoutY="181.0" prefHeight="14.0" prefWidth="65.0" style="-fx-background-color: #D9D9D9;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </padding>
+            </TextFlow>
+            <Label alignment="CENTER_RIGHT" contentDisplay="TOP" layoutX="210.0" layoutY="177.0" prefHeight="21.0" prefWidth="14.0" text="¥">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="BOTTOM_CENTER" layoutX="27.0" layoutY="233.0" prefHeight="48.0" prefWidth="266.0" text="レジ現金">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <GridPane alignment="TOP_RIGHT" layoutX="38.0" layoutY="281.0" prefHeight="171.0" prefWidth="165.0">
+               <columnConstraints>
+                  <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="109.13333587646484" minWidth="10.0" prefWidth="80.2666732788086" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="114.06666946411133" minWidth="10.0" prefWidth="42.66664428710938" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="114.06666946411133" minWidth="10.0" prefWidth="19.733355712890614" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="60.79999999999999" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="31.99997558593749" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="31.99997558593749" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="31.99997558593749" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="31.99997558593749" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="31.99997558593749" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="31.99997558593749" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="18.0" prefWidth="61.0" text="¥500：" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="18.0" prefWidth="61.0" text="¥50：" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="18.0" prefWidth="59.0" text="¥100：" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="27.0" prefWidth="69.0" text="¥5000：" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="27.0" prefWidth="70.0" text="¥1000：" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="18.0" prefWidth="61.0" text="¥1：" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="18.0" prefWidth="61.0" text="¥10：" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="27.0" prefWidth="79.0" text="¥10000：">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D9D9D9;" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </TextFlow>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="TOP" prefHeight="21.0" prefWidth="21.0" text="枚" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+            <Label contentDisplay="TOP" layoutX="220.0" layoutY="415.0" prefHeight="10.0" prefWidth="58.0" text="売上：">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextFlow layoutX="224.0" layoutY="435.0" prefHeight="14.0" prefWidth="65.0" style="-fx-background-color: #D9D9D9;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </padding>
+            </TextFlow>
+            <Label alignment="CENTER_RIGHT" contentDisplay="TOP" layoutX="208.0" layoutY="431.0" prefHeight="21.0" prefWidth="14.0" text="¥">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
